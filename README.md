@@ -19,91 +19,147 @@ Write down the code for book cover using HTML and CSS.
 ## Step 5:
 Add images and other contents using CSS record a screenshot of it.
 ## Code:
-## HTML:
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Web Development Technologies</title>
-        <link rel="stylesheet" href="{% static 'css/index.css' %}">
-    </head>
-    <body>
-        <section class="book">
-            <br><br>
-        <span id="top">EXPERT INSIGHT &nbsp;&nbsp;&nbsp;</span>
-            <h1>Responsive Web Design with HTML5 and CSS</h1>
-            <h4>Develop future-proof responsive websites using the latest HTML5 and CSS techniques</h4>
-            <h3>Third Edition</h3>
-            <footer>
-                <div id="HASH" class="blue-msg">
-                    <span>Ben Frain</span>
-                    <span id="end"><u>Packt></u></span>
+<html>
+
+<head>
+    
+    <style>
+        .bookpage{
+
+            width: 400px;
+            height: 650px;
+            color:black;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgb(0, 0, 0);
+            background-size: cover;
+            background-image: linear-gradient(to bottom right, pink, yellow);
+        }
+            
+        
+        .insight{
+            color:bisque;
+            background-image: linear-gradient(to bottom right, red, yellow);
+        
+        }
+        
+        
+        .hrstyle{
+            width:100px;
+            background-image: linear-gradient(to bottom right, red, yellow);
+        }
+        .author{
+        
+            display: inline;
+            position: relative;
+            color:rgb(217, 191, 191);
+            top:280px;
+            
+            font-family:Georgia;
+            font-size: medium;
+            background-image: linear-gradient(to bottom right, red, yellow);
+        }
+        .booktitle{
+            color:aqua;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: larger;
+            text-align: center;
+            position: relative;
+            top: 25px;
+            background-image: linear-gradient(red, yellow);
+        
+        }
+        .id {
+            width:400px;
+            position: relative;
+            top:280px;
+            background-image: linear-gradient(to bottom right, red, yellow);
+           
+        }
+        .pub{
+            color:cornflowerblue;
+            font-size: medium;
+            position: relative;
+            top:250px;
+            left:330px;
+            
+        }
+        .ed{
+            color:greenyellow;
+            font-size: medium;
+            font-family: Verdana;
+            position:relative;
+            top:180px;
+            background-image: linear-gradient(to bottom right,blue , yellow);
+        
+        }
+        .subtitle{
+            color:aquamarine;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: larger;
+            text-align: center;
+            position: relative;
+            top: 60px;
+            background-image: linear-gradient(to bottom right, red, yellow);
+        }
+        
+        .mypic{
+            position: relative;
+            top: 275px;
+            left: 320px;
+            width: 70px;
+            height: 80px;
+            background-size:contain;
+            background-image: linear-gradient(to bottom right, red, yellow);
+        }
+    
+.bookpage{
+background-image:url(images\ \(2\).jpeg);
+}
+        </style>
+        <title>Book Cover Page</title>
+        </head>
+        <body>
+        
+        <div class="bookpage">
+            <div class="insight">
+                COMPUTER
+            </div>
+            <div class="hrstyle">
+                <hr style="color:blanchedalmond">
+            </div>
+            <div class="booktitle">
+                <h1>FUNDAMENTALS of COMPUTERS</h1></div>
+            <div class="subtitle">
+                 BEGINNERS CRASH COURSE [Day 1 to Day 100]
+                 <br>
+                 CODING DATA, PYTHON,ALGORITHMS AND HACKING.
                 </div>
-            </footer>
-    </section>
-    </body>
+            
+            <div class="mypic">
+                <img src="author11.jpeg" width="70" height="80" >
+            </div>
+            <div class="id">
+                <hr style="color:rgb(13, 128, 0)">
+            </div>
+            <div class="author">
+               <p><b>PREETHI S</b></p>
+            </div>
+            <div class="pub">
+                SEC
+            </div>
+            <div class="ed">
+                <b>FIRST EDITION</b>
+            </div>
+        </div>
+        </body>
 </html>
 
-## CSS:
-body{
-    color:rgb(255, 255, 255);
-    font-family: Helvetica, sans-serif;
-    background-color: #333
-}
-
-.book{
-    width: 726px;
-    height:891px;
-    background-color:rgb(0, 0, 0);
-    margin:auto;
-    position: relative;
-    background-image: url('');
-    background-repeat: no-repeat;
-    background-size:606px;
-    background-position: bottom 150px center;
-}
-h1{
-    font-size:70px;
-    margin:60px;
-    margin-bottom:0px;
-}
-h3{
-    margin:0px 0px 90px 60px;
-    position: absolute;
-    bottom:0px;
-    font-size: x-large;
-    color: #f47027;
-}
-h4{
-    font-size:20px;
-    margin:60px;
-   margin-top:10px;
-   width:430px;
-}
-#top{
-    border-bottom:2px solid #f47027;
-    padding:100px 0px 5px 30px;
-}
-footer{
-    position: absolute;
-    bottom: 0px;
-    border-top:2px solid #f47027;
-    padding-top:10px;
-    width:726px;
-}
-#HASH {
-    display: flex;
-    justify-content: space-between;
-}
-  #HASH span{
-    margin:10px 0px 20px 60px;
-    font-size: xx-large;
-    font-weight: bold;
-  }
-  #end{
-    padding-right:60px;
-  }
 ## Output:
-![image](https://github.com/PreethiS647/cover-page-design/assets/147313372/e265f7f7-f343-4d61-916e-37f69b3d3827)
+![image](https://github.com/PreethiS647/cover-page-design/assets/147313372/519b026e-086c-4932-89eb-e3095690420f)
+
 
 
 ## Result:
