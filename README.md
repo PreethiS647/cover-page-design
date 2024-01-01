@@ -56,7 +56,7 @@ body{
     background-color:rgb(0, 0, 0);
     margin:auto;
     position: relative;
-    background-image: url('https://th.bing.com/th/id/R.671f161d141466cdcf83db28cb0f3a9c?rik=chK%2bVFNfy9d5yQ&riu=http%3a%2f%2fwww.textronic.com%2fblog%2fwp-content%2fuploads%2f2017%2f10%2fJARVIS.png&ehk=ZeD47puFibIuEgnTFLJ0EvR0pvMX2F4jcL4rRn2y4EU%3d&risl=1&pid=ImgRaw&r=0');
+    background-image: url('');
     background-repeat: no-repeat;
     background-size:606px;
     background-position: bottom 150px center;
